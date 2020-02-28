@@ -1,0 +1,91 @@
+
+*{
+    background-color: #aaa;
+}
+.modalcontainer{
+width: 100vw;
+height: 100vh;
+background:rgba(0, 0, 0,0.2);
+position:fixed;
+top:0px;
+left: 0px;
+z-index: 2000;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modalrep{
+    width: 400px;
+    height: 400px;
+    background: url('reprovado.png') no-repeat center 100%;
+    text-align: center;
+    background-size: cover;
+    color: #ffaaaa; 
+    font-size: 80px;
+    font-style:italic;
+    text-shadow: 90px;
+    font-weight: bolder;
+    
+}
+.escolhida{
+    color:#00f ;
+}
+.certa{
+    color: #0f0;
+}
+.modalap{
+    width: 400px;
+    height: 400px;    
+    background: url('aprovado.png') no-repeat center 100%;
+    text-align: center;
+    background-size: cover;    
+    color: #00ff00;
+    font-size: 80px;
+    font-weight: bolder;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.formlogin{
+    
+    display:inline-block;
+}
+.nome{
+    
+    background-color: #a0a0ff;
+    width: 50px;
+}
+#usuario{
+    background-color: #fff;
+}
+#senha{
+    background-color: #fff;
+
+}
+.enviar{
+    background-color: #a0a0ff;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.senha{
+    
+    background-color: #a0a0ff;
+    width: 150px;
+}
+.tlogin{
+    border: 1px solid #5050ff;
+    background-color: #a0a0ff;
+    width:200;
+    
+}
+.containerLogin{
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
