@@ -31,7 +31,7 @@
         </table>
        
         
-        <center><input type="submit"class="enviar"></center>
+        <center><input type="submit"class="enviar"onclick="campoembranco()"></center>
 
 
     </form>

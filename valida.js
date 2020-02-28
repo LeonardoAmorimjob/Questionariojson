@@ -118,7 +118,9 @@ function convNumLetra(cincoAlt){
     
     
 }
-function validaLogin(){
+function campoembranco(){
+    login="";
+    senha="";
     login=document.getElementById('usuario').value;
     senha=document.getElementById('senha').value;
     if(login==""||senha==""){
